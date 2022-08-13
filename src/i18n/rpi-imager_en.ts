@@ -5,28 +5,28 @@
     <name>DownloadExtractThread</name>
     <message>
         <location filename="../downloadextractthread.cpp" line="171"/>
-        <source>Error writing to storage</source>
+        <source>שגיאה בניסיון לכתוב לאיחסון</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadextractthread.cpp" line="197"/>
         <location filename="../downloadextractthread.cpp" line="386"/>
-        <source>Error extracting archive: %1</source>
+        <source>בעיה בחילוץ ארכיון: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadextractthread.cpp" line="262"/>
-        <source>Error mounting FAT32 partition</source>
+        <source>בעיה בהטמעת חלוכת הFAT32</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadextractthread.cpp" line="282"/>
-        <source>Operating system did not mount FAT32 partition</source>
+        <source>מערכת ההפעלה לא הטמיעה את חלוקת הFAT32</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadextractthread.cpp" line="305"/>
-        <source>Error changing to directory &apos;%1&apos;</source>
+        <source>בעיה בניסיון לשנות את המיקום &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -34,22 +34,22 @@
     <name>DownloadThread</name>
     <message>
         <location filename="../downloadthread.cpp" line="147"/>
-        <source>Error running diskpart: %1</source>
+        <source>בעיה בהרצת חלק הדיסק: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadthread.cpp" line="168"/>
-        <source>Error removing existing partitions</source>
+        <source>שגיעה בניסיון להסרת החלוקות הקיימות</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadthread.cpp" line="194"/>
-        <source>Authentication cancelled</source>
+        <source>ההזדהות נכשלה</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../downloadthread.cpp" line="197"/>
-        <source>Error running authopen to gain access to disk device &apos;%1&apos;</source>
+        <source>בעיה בהרצת AUTHOPEN לקבלת הרשאה למכשיר הדיסק &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -486,73 +486,73 @@
     <name>main</name>
     <message>
         <location filename="../main.qml" line="24"/>
-        <source>Raspberry Pi Imager v%1</source>
+        <source>מחייה ראספברי פיי גרסא v%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="99"/>
         <location filename="../main.qml" line="399"/>
-        <source>Operating System</source>
+        <source>מערכת הפעלה</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="111"/>
-        <source>CHOOSE OS</source>
+        <source>בחר מערכת הפעלה</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="123"/>
-        <source>Select this button to change the operating system</source>
+        <source>בחר בכפתור הזה בכדי לשנות את מערכת ההפעלה</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="135"/>
         <location filename="../main.qml" line="713"/>
-        <source>Storage</source>
+        <source>אחסון</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="147"/>
         <location filename="../main.qml" line="1038"/>
-        <source>CHOOSE STORAGE</source>
+        <source>בחר אחסון</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="173"/>
-        <source>WRITE</source>
+        <source>הוקוס פוקוס! (בצע)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="177"/>
-        <source>Select this button to start writing the image</source>
+        <source>בחר בכפתור הזה בכדי להתחיל בתהליך שינוי או הוספת מערכת ההפעלה</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="218"/>
-        <source>CANCEL WRITE</source>
+        <source>בטל פעולה</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="221"/>
         <location filename="../main.qml" line="965"/>
-        <source>Cancelling...</source>
+        <source>מבטל...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="229"/>
-        <source>CANCEL VERIFY</source>
+        <source>אמת את רצונך לבטל</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="232"/>
         <location filename="../main.qml" line="988"/>
         <location filename="../main.qml" line="1057"/>
-        <source>Finalizing...</source>
+        <source>מסיים...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="247"/>
-        <source>Select this button to access advanced settings</source>
+        <source>בחר בכפתור זה בכדי להגיע להגדרות מתקדמות</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
