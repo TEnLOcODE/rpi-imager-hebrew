@@ -4,12 +4,12 @@
 #              by Vlasis K. Barkas aka Red Wine red_wine@freemail.gr Sep 2006               
 ############################################################################################
 
-!define APP_NAME "Raspberry Pi Imager"
-!define COMP_NAME "Raspberry Pi Ltd"
+!define APP_NAME "מחייה ראספברי פיי"
+!define COMP_NAME "Raspberry Pi Ltd (moderation by rpi israel)"
 !define VERSION "@IMAGER_VERSION_STR@"
 !define INSTALLER_NAME "imager-${VERSION}.exe"
 !define COPYRIGHT "Raspberry Pi Ltd"
-!define DESCRIPTION "Raspberry Pi Imager"
+!define DESCRIPTION "מחייה ראספברי פיי בעמצאות הטמעת מערכת הפעלה"
 !define MAIN_APP_EXE "rpi-imager.exe"
 !define INSTALL_TYPE "SetShellVarContext current"
 !define REG_ROOT "HKCU"
@@ -37,7 +37,7 @@ OutFile "${INSTALLER_NAME}"
 BrandingText "${APP_NAME}"
 XPStyle on
 InstallDirRegKey "${REG_ROOT}" "${REG_APP_PATH}" ""
-InstallDir "$PROGRAMFILES\Raspberry Pi Imager"
+InstallDir "$PROGRAMFILES\Raspberry Pi Imager Hebrew"
 
 ######################################################################
 
